@@ -229,7 +229,7 @@ function bindPopstate() {
       router.navigate('home');
     }
     else{
-      router.navigate(event.state, true);
+      router.navigate(event.state["pageName"], true);
     }
   }); 
 }
