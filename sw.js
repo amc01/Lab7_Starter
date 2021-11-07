@@ -9,7 +9,8 @@ const urlsToCache = [
   'https://introweb.tech/assets/json/chocolateChip.json',
   'https://introweb.tech/assets/json/stuffing.json',
   'https://introweb.tech/assets/json/turkey.json',
-  'https://introweb.tech/assets/json/pumpkinPie.json'
+  'https://introweb.tech/assets/json/pumpkinPie.json',
+  'https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/#recipe'
 ];
 
 // Once the service worker has been installed, feed it some initial URLs to cache
