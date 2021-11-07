@@ -67,7 +67,7 @@ export class Router {
      *  4. Finally, call the stored function for the given page
      */
     if(this[page] == undefined){
-      console.log('${page} does not exist.');
+      console.log(`${page} does not exist`);
       return;
     }
     let hash = '';
