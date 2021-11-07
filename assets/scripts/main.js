@@ -8,7 +8,8 @@ const recipes = [
   'https://introweb.tech/assets/json/chocolateChip.json',
   'https://introweb.tech/assets/json/stuffing.json',
   'https://introweb.tech/assets/json/turkey.json',
-  'https://introweb.tech/assets/json/pumpkinPie.json'
+  'https://introweb.tech/assets/json/pumpkinPie.json',
+  'https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/#recipe'
 ];
 const recipeData = {} // You can access all of the Recipe Data from the JSON files in this variable
 
