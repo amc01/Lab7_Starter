@@ -8,8 +8,8 @@ const urlsToCache = [
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
   'https://introweb.tech/assets/json/stuffing.json',
-  'https://introweb.tech/assets/json/turkey.json',
-  'https://introweb.tech/assets/json/pumpkinPie.json'
+  'https://introweb.tech/assets/json/pumpkinPie.json',
+  'https://introweb.tech/assets/json/turkey.json'
 ];
 
 // Once the service worker has been installed, feed it some initial URLs to cache
@@ -47,7 +47,7 @@ self.addEventListener('fetch', function (event) {
    * TODO - Part 2 Step 4
    * Create a function as outlined above
    */
-  
+
 
    event.respondWith(
     caches.match(event.request)
