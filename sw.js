@@ -47,6 +47,7 @@ self.addEventListener('fetch', function (event) {
    * TODO - Part 2 Step 4
    * Create a function as outlined above
    */
+  
 
    event.respondWith(
     caches.match(event.request)
